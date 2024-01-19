@@ -6,7 +6,7 @@ import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'fire
 
 function Login() {
     const navigate = useNavigate();
-    const [email, setEmail] = useState('utkarsh@gmail.com');
+    const [email, setEmail] = useState('adarshMis@gmail.com');
     const [password, setPassword] = useState('123456789');
     const [error, setError] = useState(null);
 
