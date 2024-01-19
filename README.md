@@ -6,7 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### before npm start 
+run download DB file and run `npx json-server --watch db.json` and  then start main React File
+
+### `npm start` 
 
 Runs the app in the development mode.\
 Open [http://localhost:3001](http://localhost:3001) to view it in your browser.  
