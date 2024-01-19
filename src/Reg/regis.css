@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.teacherList {
+    margin-left: 17px;
+    color: blue;
+}
+
+.mainFormDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 70px 10px 70px;
+    /* border: 2px solid hwb(300 27% 47%); */
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+.mainLableDiv {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 2px;
+
+}
+
+.lableClassName {
+    font-size: medium;
+}
+
+.input-focused:focus {
+    border-width: 0;
+    /* background-color: black; */
+}
+
+.inputboxClassname {
+    width: 350px;
+    border: none;
+    background-color: rgb(216, 216, 216);
+    font-size: large;
+    padding: 7px;
+}
+
+
+/************************************** css for mobile  *************************************/
+
+@media screen and (max-width:1204px) {}

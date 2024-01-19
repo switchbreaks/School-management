@@ -1,0 +1,58 @@
+
+.teacherList {
+    margin-left: 17px;
+    color: blue;
+}
+
+.MainTeacherFormDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    margin-bottom: 250px;
+}
+
+.addTeacherBtn {
+    border: transparent;
+    border-radius: 3px;
+}
+
+.teacherNamediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1.75px solid hwb(300 27% 47%);
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.bothBtnsofAdmin {
+    display: flex;
+    justify-content: end;
+}
+
+.deleteBtn,
+.editbtn {
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.editbtn {
+    color: blue;
+}
+
+.adminTeacherSpan {
+    font-size: small;
+    font-weight: 500;
+}
+
+.AdminTeacherInput {
+    border: none;
+    width: 380px;
+    font-size: large;
+}

@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.mainclass {
+    width: 690px;
+    background-color: #8b008b;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    margin: 10px 250px 10px 250px;
+    box-shadow: 0 0 0 2.5px rgb(17 10 10 / 26%), 0 12px 13px 0 rgb(17 7 7 / 30%);
+    border-radius: 5px;
+}
+
+.topclassh1 {
+    color: #eee;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.mainclass .login {
+    margin: 10%;
+}
+
+.img_about_class {
+    width: 35%;
+    margin: 10px;
+}
+
+.login input {
+    padding: 15px;
+    margin-left: 20%;
+    margin-bottom: 3px;
+    width: 20rem;
+    font-size: 20px;
+    border-radius: 2px;
+    border-width: 0;
+    cursor: pointer;
+    /* max-width:500px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainclass .link {
+    color: #eee;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.mainclass .link:hover {
+    color: #07F5E1;
+    text-decoration: underline;
+}
+
+/************************************ css for mobile ***************************************************/
+
+@media screen and (max-width:1204px) {
+
+    .mainclass {
+        width: 95%;
+        margin: 0 5px 10px 10px;
+        border-radius: 0%;
+        background-color: #914791;
+        border-radius: 5px;
+        margin-top: 13px;
+    }
+
+    .mainclass .login {
+        margin: 0%;
+    }
+
+    select {
+        margin: 5px;
+        width: 20.5rem;
+
+    }
+
+    .img_about_class {
+        margin-left: 30%;
+    }
+
+    .mainclass .login input {
+        margin-left: 5px;
+        width: 87%;
+        max-width: 320px;
+    }
+
+    .btm_login {
+        /* margin: 0 10% 0 10%; */
+        margin: 5px;
+    }
+
+    .mainclass .link {
+        margin: 50px 0 10px 0;
+    }
+}

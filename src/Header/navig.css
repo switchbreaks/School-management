@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    
+   }
+.main_navi{
+    background-color: #aa66aa;
+    width: 100%;
+    color: #eee;
+    margin:0;  
+    /* position: fixed;  */
+     /* to fixed the nav bar uncomment this state */
+}
+ul.ulli_class{
+    font-size: 1.1rem;
+    
+    overflow: hidden;
+    list-style: none;
+    margin: 0%;
+}
+ ul.ulli_class li{
+    text-transform:uppercase; 
+    padding:14px;
+    list-style:none;
+	float:left;
+}   
+ul.ulli_class li:hover{
+    margin-top:5PX;
+
+}
+ul.ulli_class li.dropdownIcon{
+    display: none;
+}
+ul li a{
+    color: #eee;
+    text-decoration: none;
+    padding: 1px;
+    cursor: pointer;
+}
+ul li.right{
+    float: right;
+}
+/********************************************** css for mobile ****************************************/
+
+
+
+        @media screen and (max-width:1204px) {
+            ul.ulli_class li:not(:nth-child(1)){
+                display:none;
+            }
+            ul.ulli_class li.dropdownIcon{
+                display: block;
+                float: right;
+                width:2rem
+            }
+            ul.ulli_class.responsive li.dropdownIcon{
+                position:absolute;
+                top:0;
+                right:0;
+            }
+            nav{
+                position:auto;
+            }
+            ul.ulli_class.responsive{
+                position:relative;
+            }
+            ul.ulli_class.responsive li{
+                display:inline;
+                float:none;
+            }
+            ul.ulli_class.responsive li a{
+                display:block;
+                text-align:left;
+            }
+
+        }

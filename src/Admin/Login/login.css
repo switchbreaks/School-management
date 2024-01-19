@@ -1,0 +1,47 @@
+.login_mainDiv {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(110deg, #e7bbea 64.5%, #f5f5f4 30%);
+}
+
+.loginSubDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.formDivLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1.75px solid hwb(300 27% 47%);
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.inputLogin{
+    border: none;
+}
+.Loginbtm {
+    height: 40px;
+    width: 80%;
+    font-size: large;
+    border-radius: 3px;
+    outline: none;
+}
+.spanClassName{
+    font-size: small;
+    font-weight: 500;
+}
+.loginSpan{
+    color: red;
+    font-size: small;
+}
+.Loginbtm {
+    width: 300px;
+    height: 40px;
+}

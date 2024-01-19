@@ -1,0 +1,45 @@
+
+
+.student_submain_class {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.stu_img_class {
+    width: 35%;
+    background-color: rgb(173, 172, 169);
+}
+
+.stu_box {
+    padding: 17px;
+    letter-spacing: .95px;
+    width: 27%;
+    background-color:rgb(184, 209, 201);
+    margin: 10px;
+    border-radius: 3px;
+}
+.btnAndHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.threeBtns{
+    margin: 0 5px 0 5px;
+}
+b {
+
+    color: #160A98;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: .75px;
+}
+
+/******************************************* css for moile ********************************************************/
+
+@media screen and (max-width:1204px) {
+
+    
+
+}

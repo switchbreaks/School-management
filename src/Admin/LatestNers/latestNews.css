@@ -1,0 +1,19 @@
+.addNewson {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 9px;
+    resize: vertical;
+}
+.newsAndDeletbtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.mainNewsContent{
+   margin-top: 10px; 
+   margin-right: 35px;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+.topSavebtn{
+    margin: 20px 50px 0px 0px ;
+    position: absolute;
+    right: 0;
+    background-color: rgb(250, 249, 249);
+}
+
+.h1andBtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    box-shadow: 0px 3px 3px 0px rgba(199, 199, 199, 0.79);
+    background-color:white;
+}
+.h4class{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+.custo_gobk_arr{
+    margin: 20px;
+    cursor: pointer;
+    color: rgb(109, 108, 108);
+}
+.customer_main_div{
+    box-sizing: border-box;
+}
+.hrclass{
+    background-color: green;
+    width: 100vh;
+    border-radius: 7px;
+}
+.btnTop{
+    padding: 7px 30px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+.customerFormDiv{
+   box-sizing: border-box; 
+   height: 90vh;
+   /* background-color: #eee; */
+}
+.customerInput{
+    width: 300px;
+    margin: 30px;
+}
+.smallOne{
+    width: 200px;
+}
+.selectorSide{
+    width: 215px;
+}
+/* ******************************************************************* */
+.countryCode{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+.sirnameSelector{
+    width: 85px;
+    border-right: hidden;
+}
+.mobAndcode{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.dflex{
+    display: flex;
+}
+.outerInput{
+    padding: 15px;
+}
+.selectCo{
+    width: 295px;
+}
+.input_field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: end;
+    padding: 10px;
+    border-radius: 2px;
+    min-width: 350px;
+    margin: 20px 50px 0px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+@media screen and (max-width:750px){
+    .h1andBtn{
+        width: auto;
+        font-size: medium;
+        padding: 9px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between ;
+    }
+    .btnTop{
+        margin: 10px;
+        padding: 5px 15px;
+        letter-spacing: 1px;
+    }
+}

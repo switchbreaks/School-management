@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.about_main_class{
+    background-color: #f6f4f7;
+    box-sizing: content-box;
+    margin: 20px;
+    border: solid #0f1329 1.5px;
+    border-radius: 1.7px;
+    padding: 7px;
+}
+.name1{
+    margin:0 0 0 20px;
+    /* font-size: 20px; */
+}
+.name1 .under_name{
+    width: 205px;
+    margin-left: 0;
+    margin-top: 0;
+    height: 1.5px;
+    background-color: bisque;
+}
+.chil_main_class{
+    display: flex;
+    margin-left : 20px;
+}
+.about_artical article{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:auto;
+    letter-spacing: 1px;
+    display: block;
+}
+.about_artical_p{
+    letter-spacing: 1.5px;
+    text-align: justify;
+    margin-right: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img_css_about{
+    width:950px;
+    height:220px;
+    box-shadow: 0px 0px 5px 2px rgb(77, 74, 77);
+    border-radius:2px;
+    margin-top: -3.5%;
+    margin-bottom: 1%;
+    margin-right: 5px;   
+}
+/**************************************** Css for Mobile ***************************************************/
+@media screen and (max-width:1204px) {
+
+        .about_main_class{
+             background-color: #eff2f6;
+             box-sizing: content-box;
+             margin: 8px;
+             border: solid #1d2349 1.25px;
+             border-radius: 0px;
+             padding: 4px;
+             /* box-shadow: rgba(175, 6, 6, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(250, 160, 160, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+             }
+        .chil_main_class{
+            width: 100%;
+            display: inline;
+        }
+        .about_artical article{
+            width: 100%;
+        }
+        .about_artical_p{
+            font-size: 20px;
+            line-height: auto;
+            letter-spacing: normal;
+        }
+        .img_css_about{
+            width: 100%;
+            height: auto;
+            position:static;
+        }
+         .name1{
+            text-align: center;
+            font-size: 35px;
+            margin: 0;
+            color:#8e558e;
+            
+        }
+        .name1 .under_name{
+             width: inherit;
+        }
+}

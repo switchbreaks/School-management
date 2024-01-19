@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+}
+
+.photo_main_class {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo_child_class {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.img_class {
+    max-width: 700px;
+    width: auto;
+    box-shadow: rgba(100, 130, 165, 0.3) 0px 0px 0px 3px;
+    margin: 20px;
+    border-radius: 3px;
+    border-width: 3px solid black;
+
+
+}
+
+/***************************************** css for mobile ********************************************/
+
+
+@media screen and (max-width:1204px) {
+    .img_class {
+        max-width: 450px;
+        width: auto;
+        box-shadow: rgba(100, 130, 165, 0.3) 0px 0px 0px 3px;
+        margin: 20px;
+        border-radius: 3px;
+    }
+}

@@ -1,0 +1,60 @@
+/*   this is global css file which property you can use any here  */
+/* some common css written here which is globelly used in this project   */
+/* this is front family */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* now  this line of code remove the  mm/dd/yyyy from the input type="date" */
+
+input[type="date"]::before {
+    content: attr(placeholder);
+    position: absolute;
+    color: #999999;
+  }
+  
+  input[type="date"] {
+    color: #ffffff;
+  }
+  
+  input[type="date"]:focus,
+  input[type="date"]:valid {
+    color: #666666;
+  }
+  
+  input[type="date"]:focus::before,
+  input[type="date"]:valid::before {
+    content: "";
+  }
+/*  ********************************   end    ***************************************** */
+
+/* this line of code give the color of active menu css */
+.active{
+  font-size: 18px;
+  color: #6870fa;
+}
+/*  ------------------------- end ------------------- */
+
+/* ------------- this line of code remove the both arrow from the number type input  -------------------*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* -----------------------------------    End  --------------------------------------------------------- */
+
+/* -------- this line of code output is when user hove on the table data the perticurler td comes out --- */
+.ShowcustomerHover:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: blue;
+  /* cursor: pointer; */
+}
+/* ----------------------------------------  End of the code -------------------------------------------- */
+
+/* ******************** now this line of code remove the resizer from text-area ************************** */
+
+textarea::-webkit-resizer {
+  display: none;
+}
+
+/* ----------------------------------------  End of the code ---------------------------------------------- */
+
+/* ************************  remove the srool bar from the page  ******************************************** */

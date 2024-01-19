@@ -1,0 +1,8 @@
+.queryMapdiv{
+    display: flex;
+    flex-direction: row;
+}
+.hrlinecolor{
+    color: rgb(223, 8, 202);
+    height: 5px;
+}
