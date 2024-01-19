@@ -6,8 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### before npm start 
-run download DB file and run `npx json-server --watch db.json` and  then start main React File
+### before npm start run npx json-server --watch db.json
+download DB file and run and  then start main React File
 
 ### `npm start` 
 
