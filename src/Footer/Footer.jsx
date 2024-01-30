@@ -8,7 +8,7 @@ function Footer() {
 		window.confirm('Mobile Number is +91 123456789')
 	}
 	const deve = () => {
-		window.confirm("contact:- utkarsh.9167@gmail.com")
+		window.confirm("contact:- amishra.9167@gmail.com")
 	}
 
 	return (
@@ -87,7 +87,7 @@ function Footer() {
 									</div>
 								</div>
 						}
-						<h6 className="myname">&#169;2023 Developed By:-  Utkarsh Mishra</h6>
+						<h6 className="myname">&#169;2023 Developed By:-  Adarsh Mishra</h6>
 					</div>
 				</div>
 
