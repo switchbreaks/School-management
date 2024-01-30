@@ -80,8 +80,8 @@ function Footer() {
 									<div className="col-3 mobilestack">
 										<h1>Developed By</h1>
 										<ul onClick={deve}>
-											<li>Utkarsh&nbsp;Mishra</li>
-											<li>BSc III</li>
+											<li>Adarsh&nbsp;Mishra</li>
+											<li>BCA</li>
 											<li></li>
 										</ul>
 									</div>
