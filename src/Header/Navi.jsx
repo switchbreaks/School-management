@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./navig.css";
 import { useNavigate } from "react-router-dom";
-
 const dropdownMenu = () => {
     let x = document.getElementById("dropdownClick");
     if (x.className === "ulli_class") {
@@ -11,7 +10,6 @@ const dropdownMenu = () => {
         x.className = "ulli_class";
     }
 };
-
 function Navi() {
     const token = localStorage.getItem('token');
     const isLoggedIn = token !== null;
@@ -48,7 +46,6 @@ function Navi() {
                                 <li className="right" ><Link to="/Registration"> Registration </Link></li>
                             </>
                         )}
-
                         <li className="dropdownIcon"><Link to="" onClick={dropdownMenu}> &#9776;</Link></li>
                     </ul>
                 </div>
