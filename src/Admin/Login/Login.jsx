@@ -3,16 +3,13 @@ import './login.css';
 import { useNavigate } from 'react-router-dom';
 import { database } from '../../firebaseConfig';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
-
 function Login() {
     const navigate = useNavigate();
     const [email, setEmail] = useState('adarshMis@gmail.com');
     const [password, setPassword] = useState('123456789');
     const [error, setError] = useState(null);
-
     const handleSubmit = async (e) => {
         e.preventDefault();
-
         try {
             const userCredential = await signInWithEmailAndPassword(database, email, password);
             const token = await userCredential.user.getIdToken();
