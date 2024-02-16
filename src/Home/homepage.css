@@ -6,13 +6,11 @@
     position: relative;
     height: auto;
 }
-
 /************************************** css start for marquee  **********************************************/
 .Loc_goback {
     background-color: rgb(228, 207, 235);
     /* position: fixed; */
 }
-
 .topper {
     float: right;
     margin-bottom: 5px;
@@ -25,7 +23,6 @@
     /* width: 25%; */
     /* position: fixed; */
 }
-
 marquee {
     width: 80%;
     letter-spacing: 1px;
@@ -36,11 +33,9 @@ marquee {
     color: black;
     filter: contrast(150%);
 }
-
 .news {
     margin-left: 120px;
 }
-
 .holy_day {
     margin: 0px 0px 0 70px;
     color: #000000;
@@ -52,7 +47,6 @@ marquee {
     color: #000000;
     filter: contrast(250%);
 }
-
 .other_news {
     margin-left: 120px;
 }
@@ -65,7 +59,6 @@ marquee {
     background-repeat: no-repeat;
     animation: changeImage 10s ease-in-out infinite;
 }
-
 @keyframes changeImage {
     0% {
         background-image: url('/public/photo_staff.jpg');
@@ -86,18 +79,14 @@ marquee {
     100% {
         background-image: url('/public/offic.jpeg');
     }
-
 }
-
 /************************************** css start for about_college  **********************************************/
 .about_college {
     background-color: #f3ecf6;
     display: flex;
     width: 100%;
     justify-content: space-between;
-
 }
-
 .about_college .about_home_p {
     margin-left: 1.5%;
     line-height: 25px;
@@ -110,7 +99,6 @@ marquee {
     position: relative;
     font-family: 'Times New Roman', Times, serif;
 }
-
 .principal_sir_img {
     height: 240px;
     width: 352px;
@@ -119,7 +107,6 @@ marquee {
     box-shadow: -2px -2px 1px 2px rgba(209, 191, 31, 0.15), 2px 2px 10px 2px rgb(124, 98, 98);
     border-radius: 3px;
 }
-
 /************************************** css start for map and query  **********************************************/
 /************************************** css start for map  **********************************************/
 .map_feedbacl {
@@ -129,12 +116,10 @@ marquee {
     position: relative;
     margin-bottom: 5px;
 }
-
 .current_location iframe {
     height: 100%;
     width: 550px;
 }
-
 /************************************** css start for form  **********************************************/
 .h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -151,7 +136,6 @@ label {
     font-size: auto;
     margin-left: 10px;
 }
-
 .homeInputes {
     width: 95%;
     padding: 12px;
@@ -162,7 +146,6 @@ label {
     resize: vertical;
     margin-left: 10px;
 }
-
 .map_feedbacl input[type=submit],
 .map_feedbacl input[type=reset] {
     background-color: #04AA6D;
@@ -175,19 +158,14 @@ label {
     float: right;
     cursor: pointer;
 }
-
 .map_feedbacl input[type=reset] {
     background-color: brown;
 }
-
 .check {
     margin-left: 10px;
 }
 
 /************************************** css for mobile   **********************************************/
-
-
-
 @media screen and (max-width:1204px) {
     .all_artical {
         margin: 10px;
@@ -215,21 +193,17 @@ label {
         height: auto;
         margin-left: 5px;
     }
-
     .map_feedbacl {
         display: inline;
         width: 98%;
     }
-
     .current_location iframe {
         width: 100%;
         height: 450px;
     }
-
     .check {
         margin: 10px;
     }
-
     .map_feedbacl input[type=submit],
     .map_feedbacl input[type=reset] {
         padding: 20px;
