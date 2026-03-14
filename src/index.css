@@ -13,6 +13,7 @@ input[type="date"]::before {
   input[type="date"] {
     color: #ffffff;
   }
+
   
   input[type="date"]:focus,
   input[type="date"]:valid {
